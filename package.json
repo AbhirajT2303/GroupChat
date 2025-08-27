@@ -1,0 +1,20 @@
+{
+  "name": "websocketdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin.js",
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.raykor.com:abhishek.talkokul/websocketdemo.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

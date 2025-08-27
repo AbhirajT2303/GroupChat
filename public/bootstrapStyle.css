@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#chatScreen {
+  height: calc(100vh - 100px);
+}
+#userList {
+  max-height: 100%;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#messages {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #292929;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.chat-column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#inputArea {
+  display: flex;
+  gap: 5px;
+  height: 50px;
+}
+#inputArea input {
+  flex: 1;
+}
