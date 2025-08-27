@@ -8,7 +8,7 @@ $(document).ready(function () {
       alert("please enter a username");
       return;
     }
-    socket = new WebSocket("ws://" + window.location.hostname + ":4545");
+    socket = new WebSocket("wss://groupchat-3-92wz.onrender.com");
 
     socket.onopen = function () {
       console.log("Connected to server.");
